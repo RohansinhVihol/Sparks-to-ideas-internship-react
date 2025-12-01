@@ -8,6 +8,7 @@ import Login from "./components/Login";
 import Contact from "./components/Contact";
 import { Route, Routes } from "react-router-dom";
 import Table from "./components/Table";
+import Dashboard from "./components/Dashboard";
 
 function App() {
   return ( 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/about" element={<About />} />
          <Route path="/productionUnit" element={<Table />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/dashboard" element={<Dashboard/>}/>
       </Routes>
       <Footer/>
     </>

@@ -1,0 +1,75 @@
+/* Full page container */
+.dashboard-container-full {
+  width: 100%;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  
+}
+.user{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+h1{
+  font-size: large;
+  font-weight: bold;
+  text-decoration: underline;
+  color: darkblue;
+}
+
+.dashboard-container-full h1 {
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 2.5rem;
+}
+
+/* Table wrapper for horizontal scroll on small screens */
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  min-width: 800px; /* ensures table doesn't shrink too much */
+  border-collapse: collapse;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #4CAF50;
+  color: white;
+}
+
+th, td {
+  padding: 15px 20px;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size: 1rem;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+  transition: background-color 0.3s;
+}
+
+/* Circular profile image */
+.profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
