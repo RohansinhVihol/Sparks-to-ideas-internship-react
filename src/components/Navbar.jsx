@@ -24,6 +24,9 @@ const Navbar = () => {
           <Link to={"/about"} className="hover:scale-110 transition">
             About Us
           </Link>
+          <Link to={"/productionUnit"} className="hover:scale-110 transition">
+            Production Unit
+          </Link>
           <Link to={"/login"} className="hover:scale-110 transition">
             Login
           </Link>

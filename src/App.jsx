@@ -7,6 +7,7 @@ import Services from "./components/Models";
 import Login from "./components/Login";
 import Contact from "./components/Contact";
 import { Route, Routes } from "react-router-dom";
+import Table from "./components/Table";
 
 function App() {
   return ( 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/models" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
+         <Route path="/productionUnit" element={<Table />} />
         <Route path="/login" element={<Login />} />
       </Routes>
       <Footer/>

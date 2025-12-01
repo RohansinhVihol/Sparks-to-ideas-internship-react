@@ -1,0 +1,50 @@
+
+.data {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+
+.t1 {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+
+.t1 thead tr {
+  background-color: #1C69D4; 
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+
+.t1 th,
+.t1 td {
+  padding: 12px 15px;
+}
+
+
+.t1 tbody tr {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.t1 tbody tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+
+.t1 tbody tr:hover {
+  background-color: #e8f0ff;
+  transition: 0.25s ease-in-out;
+}
+
+
+.t1 {
+  border-radius: 12px;
+  overflow: hidden;
+}
