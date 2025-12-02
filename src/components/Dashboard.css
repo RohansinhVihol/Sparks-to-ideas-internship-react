@@ -44,7 +44,8 @@ table {
 }
 
 thead {
-  background-color: #4CAF50;
+  background-color: #e83f58; 
+  /* //#4CAF50; */
   color: white;
 }
 
